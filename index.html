@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Piero Friedrich - Portfolio</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oxygen&family=Oxygen+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"> 
+    <link rel="icon" href="./favicon.ico" type="image/x-icon">
+    <script src="./script.js"></script>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li>
+                <h1><a href="#">
+                <span class="fa-solid fa-paint-roller" aria-hidden="true"></span>
+                <span>Piero Friedrich</span></a></h1>
+            </li>
+            <li><a id="projectsNav" href="#projects">Projects</a></li>
+            <li><a id="aboutNav" href="#myName">About</a></li>
+            <li><a id="contactNav" href="#contact">Contact</a></li>
+            <li><a href="https://www.linkedin.com/in/piero-friedrich-90a9b9192/" title="LinkedIn" target="_blank">
+                <span class="fa-brands fa-linkedin" aria-hidden="true"></span>
+                <span class="sr-only">LinkedIn</span></a></li>
+            <li><a href="https://github.com/PieroFriedrich" title="GitHub" target="_blank">
+                <span class="fa-brands fa-square-github" aria-hidden="true"></span>
+                <span class="sr-only">GitHub</span>
+                </a></li>
+            <li><a id="resumeNav" href="#" class="button">Resume</a></li>
+            <li><a href="#" onclick="changeLanguage('Portuguese')"><img id="language" src="./brazil.png" alt="English mode" title="Change Language"></a></li>
+            <li><a href="#" onclick="changeLanguage('English')"><img id="language" src="./canada.png" alt="English mode" title="Change Language"></a></li>
+            <!-- <li><a href="https://www.flaticon.com/free-icons/flags" title="flags icons">Flags icons created by Freepik - Flaticon</a></li> -->
+        </ul>
+    </nav>
+    <section id="intro">
+        <p id="myName" class="name">Hi, my name is <span>Piero Friedrich</span></p>
+        <h2 id="profession">Software Developer</h2>
+        <p id="paragraph1">I develop responsive websites, focusing on user experience, accessibility and functionalities.</p>
+        <p id="paragraph2">I'm a student specializing in Full-Stack Web Development, currently studying Computer Studies in Langara College.</p>
+    </section>
+    <div class="gradient"></div>
+    <div class="section-yellow">
+        <section id="projects">
+            <h2 id="projectHeader">Projects I'm proud of</h2>
+            <article>
+                <div class="text">
+                    <h4 id="latestProject">Latest Project</h4>
+                    <h3 id="gamingSpot" class="projectLink"><a href="https://htmlpreview.github.io/?https://github.com/PieroFriedrich/GamingSpot/blob/main/index.html"
+                        target="_blank">Gaming Spot - Video Game Store</a></h3>
+                    <p id="gamingSpotDescription" class="blackbox">Gaming Spot is a website where you will find lots of games from PlayStation, XBox and Nintendo Switch. The website consists on a homepage, a game catalog for each console, a page for games on sale and a contact page to interact with the customer. The Gaming Spot was developed for different devices to enable the highest number of customers to access the store products. It can be accessed using this <a href="https://htmlpreview.github.io/?https://github.com/PieroFriedrich/GamingSpot/blob/main/index.html" target="_blank">link</a>.
+                    </p>
+                    <h4 id="technologies1">Technologies used include:</h4>
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS Grid</li>
+                        <li>CSS Flex</li>
+                        <li>JavaScript</li>
+                    </ul>
+                </div>
+                <img src="./gamingspotresized.png" alt="Gaming Spot Store." />
+            </article>
+            <article class="reverse">
+                <div class="text">
+                    <h4 id="gameProject">Game Project</h4>
+                    <h3 class="projectLink"><a href="https://htmlpreview.github.io/?https://github.com/PieroFriedrich/WordGuesser/blob/main/index.html"
+                        target="_blank">Word Guesser</a></h3>
+                    <p id="wordGuesserDescription" class="blackbox">
+                        Word Guesser consists of a game where the player needs to guess the right word of the day,
+                        chosen randomly by an API. The player has 6 attempts to choose a valid English word and receive
+                        different colors as hints for the next turn. The game was inspired in the famous Wordle game, currently owned by
+                        The New York Times. It can be played clicking on this <a href="https://htmlpreview.github.io/?https://github.com/PieroFriedrich/WordGuesser/blob/main/index.html"
+                        target="_blank">link</a>.
+                    </p>
+                    <h4 id="technologies2">Technologies used include:</h4>
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                    </ul>
+                </div>
+                <img src="./wordguesserresized.png"
+                    alt="Word Guesser Game." />
+            </article>
+            <article>
+                <div class="text">
+                    <h4 id="essentialProject">Essential Project</h4>
+                    <h3 id="iosCalculator" class="projectLink"><a href="https://htmlpreview.github.io/?https://github.com/PieroFriedrich/IosCalculator/blob/main/index.html"
+                        target="_blank">IOS Calculator</a></h3>
+                    <p id="iosCalculatorDescription" class="blackbox">
+                        A Web implementation of a calculator in the IOS Model, with the same functionalities and features of Apple's famous design.
+                        It can be accessed through this <a href="https://htmlpreview.github.io/?https://github.com/PieroFriedrich/IosCalculator/blob/main/index.html" target="_blank">link</a>.
+                    </p>
+                    <h4 id="technologies3">Technologies used include:</h4>
+                    <ul>
+                        <li>JavaScript</li>
+                        <li>CSS</li>
+                        <li>HTML</li>
+                    </ul>
+                </div>
+                <img src="./ioscalculator.png"
+                    alt="IOS Calculator" />
+            </article>
+        </section>
+    </div>
+    <div class="gradient"></div>
+    <div class="section-blue">
+        <section id="contact">
+            <h2 id="contactMe">Contact me</h2>
+            <p id="contactInfo">I'm always interested in hearing about new web and software development opportunities.</p>
+            <p><a id="emailMe" href="mailto:pierofriedrich@yahoo.com.br" class="button">Email me</a></p>
+        </section>
+    </div>
+    <div class="gradient"></div>
+    <footer>
+        <h2 id="reference">Piero Friedrich &middot; Software Developer</h2>
+        <ul>
+            <li><a href="https://www.linkedin.com/in/piero-friedrich-90a9b9192/" target="_blank" title="LinkedIn">
+                <span class="fa-brands fa-linkedin" aria-hidden="true"></span>
+                <span class="sr-only">LinkedIn</span>
+            </a></li>
+            <li><a href="https://github.com/PieroFriedrich" target="_blank" title="GitHub">
+                <span class="fa-brands fa-square-github" aria-hidden="true"></span>
+                <span class="sr-only">GitHub</span>
+                </a></li>
+            <li>
+                <a href="mailto:pierofriedrich@yahoo.com.br" title="E-mail">
+                    <span class="fa-solid fa-envelope" aria-hidden="true"></span>
+                    <span class="sr-only">E-Mail</span>
+                </a>
+            </li>
+        </ul>
+        <p id="copyrights">&copy; 2023 Piero Friedrich. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
