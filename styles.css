@@ -118,7 +118,7 @@ img {
 /* contact section */
 
 #contact {
-    width: 400px;
+    width: 60%;
     text-align: center;
     margin: 0 auto;
     padding: 4rem 0;
@@ -316,4 +316,5 @@ footer ul {
         text-align: left;
         margin-right: auto;
     }
+
 }
