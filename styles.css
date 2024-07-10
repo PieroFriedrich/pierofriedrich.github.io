@@ -110,15 +110,50 @@ img {
   font-size: 4rem;
 }
 
+/* Keyframes with -webkit- prefix */
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(-20px);
+    transform: translateY(-20px);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+
+/* Animation and transition with both prefixes */
 .section-content {
   opacity: 0;
-  transform: translateY(-20px); /* Initial position off-screen */
-  transition: opacity 2s ease, transform 2s ease;
+  -webkit-transform: translateY(-20px);
+  transform: translateY(-20px);
+  -webkit-transition: opacity 2s ease, -webkit-transform 2s ease;
+  transition: opacity 2s ease, transform 2s ease; /* Standard syntax */
 }
 
 .section-content.visible {
   opacity: 1;
-  transform: translateY(0); /* Move to original position */
+  -webkit-transform: translateY(0);
+  transform: translateY(0);
+}
+
+/* Dropdown animation */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 120px;
+  border-radius: 15px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  -webkit-transition: display 0.3s ease; /* -webkit- prefix for transition */
+  transition: display 0.3s ease; /* Standard syntax */
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
 }
 
 /* contact section */

@@ -45,7 +45,7 @@ function changeLanguage(lang) {
     document.getElementById("essentialProject").innerHTML = "Projeto Essencial";
     document.getElementById("iosCalculator").innerHTML = "Calculadora IOS";
     document.getElementById("iosCalculatorDescription").innerHTML =
-      'Uma implementação web do modelo IOS de calculadora, com as mesmas funcionalidades e características do famoso design da Apple. Ela pode ser acessada através deste <a href="https://htmlpreview.github.io/?https://github.com/PieroFriedrich/IosCalculator/blob/main/index.html" target="_blank">link</a>.';
+      "Uma implementação web do modelo IOS de calculadora, com as mesmas funcionalidades e características do famoso design da Apple.";
     /* ENGLISH MODE */
   } else {
     document.getElementById("projectsNav").innerHTML = "Projects";
