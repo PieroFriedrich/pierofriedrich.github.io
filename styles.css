@@ -104,6 +104,10 @@ img {
   color: var(--yellow);
   display: block;
   font-weight: 300;
+  display: inline-block;
+  border-right: 2px solid #61dafb;
+  white-space: nowrap;
+  overflow: hidden;
 }
 
 #intro h2 {
@@ -129,8 +133,12 @@ img {
   opacity: 0;
   -webkit-transform: translateY(-20px);
   transform: translateY(-20px);
-  -webkit-transition: opacity 2s ease, -webkit-transform 2s ease;
-  transition: opacity 2s ease, transform 2s ease; /* Standard syntax */
+  -webkit-transition:
+    opacity 2s ease,
+    -webkit-transform 2s ease;
+  transition:
+    opacity 2s ease,
+    transform 2s ease; /* Standard syntax */
 }
 
 .section-content.visible {
