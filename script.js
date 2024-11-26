@@ -31,8 +31,11 @@ function changeLanguage(lang) {
     document.getElementById("autoMarketplaceDescription").textContent =
       "Um marketplace responsável por conectar compradores e vendedores de automóveis. O website disponibiliza todos os carros disponíveis para compra, com opções de filtros para especificar preço, marca, dentro outras propriedades. O vendedor pode preencher um formulário para armazenar seu carro na base de dados para que ele seja visualizado por outros usuários.";
     document.getElementById("latestProject").textContent = "Projeto Web";
-    document.getElementById("gamingSpot").textContent =
-      "Gaming Spot - Loja de Vídeo Games";
+    document.getElementById("gamingSpot").innerHTML = `<a
+    href="https://htmlpreview.github.io/?https://github.com/PieroFriedrich/GamingSpot/blob/main/index.html"
+    target="_blank"
+    >Gaming Spot - Loja de Video-Games</a
+  >`;
     document.getElementById("gamingSpotDescription").textContent =
       "Gaming Spot é um website onde você encontrará diversos jogos de PlayStation, Xbox e Nintendo Switch. O website consiste em uma página home, um catálogo de games para cada console, uma página para jogos em promoção e uma página de contato para interagir com o cliente. A Gaming Spot foi desenvolvida para diferentes dispositivos para possibilitar o maior número de acessos possível aos produtos da loja.";
     document.getElementById("technologies").textContent =
@@ -64,8 +67,11 @@ function changeLanguage(lang) {
       "A marketplace responsible for connecting car buyers and sellers. The website displays all cars available for purchase, allowing the customer to filter by price, brand and other properties. The seller can process a form to store their cars into the database and display to other users.";
 
     document.getElementById("latestProject").textContent = "Web Project";
-    document.getElementById("gamingSpot").textContent =
-      "Gaming Spot - Video Game Store";
+    document.getElementById("gamingSpot").innerHTML = `<a
+    href="https://htmlpreview.github.io/?https://github.com/PieroFriedrich/GamingSpot/blob/main/index.html"
+    target="_blank"
+    >Gaming Spot - Video Game Store</a
+  >`;
     document.getElementById("gamingSpotDescription").textContent =
       "Gaming Spot is a website where you will find lots of games from PlayStation, XBox and Nintendo Switch. The website consists on a homepage, a game catalog for each console, a page for games on sale and a contact page to interact with the customer. The Gaming Spot was developed for different devices to enable the highest number of customers to access the store products.";
     document.getElementById("technologies").textContent =
