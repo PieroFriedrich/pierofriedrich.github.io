@@ -13,10 +13,6 @@
     />
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
-    />
-    <link
-      rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
     />
     <link rel="icon" href="./favicon.ico" type="image/x-icon" />
@@ -40,6 +36,7 @@
           <a href="#" id="language" class="dropbtn">Language</a>
           <div class="dropdown-content">
             <a href="#" onclick="changeLanguage('English')">English</a>
+            <a href="#" onclick="changeLanguage('French')">Français</a>
             <a href="#" onclick="changeLanguage('Portuguese')">Português</a>
           </div>
         </li>
@@ -88,7 +85,31 @@
         <h2 id="projectHeader">Projects</h2>
         <article class="reverse section-content">
           <div class="text">
-            <h4 id="lastProject">Most Recent Project</h4>
+            <h4 id="readingBreakLabel">Most Recent Project</h4>
+            <h3 class="projectLink">
+              <a href="http://54.71.112.27:3000/" target="_blank"
+                >Reading Break</a
+              >
+            </h3>
+            <p id="readingBreakDescription" class="blackbox">
+              A book tracking website where you can explore new books, set
+              reading goals, find trending books and check your progress.
+            </p>
+            <h4 class="technologies">Technologies used include:</h4>
+            <ul>
+              <li>Next.js</li>
+              <li>TypeScript</li>
+              <li>AWS</li>
+              <li>React</li>
+              <li>SQL</li>
+              <li>RESTful APIs</li>
+            </ul>
+          </div>
+          <img src="./readingbreak.png" alt="Reading Break" />
+        </article>
+        <article class="reverse section-content">
+          <div class="text">
+            <h4 id="lastProject">Featured Project</h4>
             <h3 class="projectLink">
               <a
                 href="https://infinite-thread-client-hostinger.vercel.app/"
